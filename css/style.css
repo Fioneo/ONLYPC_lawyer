@@ -282,7 +282,7 @@ color: #87898C;
     background-size: contain;
 }
 .count {
-    background-image: url(img/photos/BG.jpg);
+    background-image: url(/ONLYPC_lawyer/img/photos/BG.jpg);
     height: 356px;
     align-items: center;
     justify-content: center;
@@ -508,12 +508,7 @@ color: #87898C;
     font-size: 16px;
     line-height: 26px;
 }
-.socials {
-    height: 70px;
-    background-color: #004D7B;
-    display: flex;
-}
-.socials p {
+.footer-in p {
     color: #D9DBE1;
     font-weight: 400;
     font-size: 14px;
@@ -525,9 +520,9 @@ color: #87898C;
     gap: 10px;
 }
 .footers {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #004D7B;
+    height: 70px;
+    padding: 22px 0;
 }
 .social-item a img {
     width: 12px;
@@ -535,4 +530,9 @@ color: #87898C;
     background-color: #094B72;
     padding: 6px;
     border-radius: 50%;
+}
+.footer-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
